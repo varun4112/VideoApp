@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button, Card, Col, Row } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
-
 function Landing() {
 
   const navigateByUrl= useNavigate();
@@ -55,8 +54,8 @@ function Landing() {
         </Card.Text>
       </Card.Body>
     </Card>
-
     </Row>
+    
     <Row className=''  >
       <Col></Col>
       <Col lg={5} className='p-5'>
